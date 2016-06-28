@@ -1,40 +1,22 @@
 body {
-  margin: 0px auto;
-  padding: 0px;
-
-background: url('../img/background.png')
+    margin: 0px auto;
+    padding: 0px;
+    background: url('../img/background.png')
 }
-
 .message {
-  font-size: 40px;
-      font-style: italic;
+    padding-top: 160px;
+    font-size:  80px;
+    font-style: italic;
 }
-.days {
- font-size: 40px
-}
-.text {
-    border-bottom: 1px solid #262626;
 
-    padding-bottom: 40px;
-    text-align: center;
-}
 .counter {
-
-    min-height: 800px;
     text-align: center;
 }
 .counter h3 {
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    margin-bottom: 30px;
+    font-size: 80px;
 }
 #countdown {
     color: #FFFFFF;
-    font-size: 25px;
 }
 #countdown span {
     color: black;

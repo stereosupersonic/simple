@@ -1,4 +1,3 @@
-
 var target_date = new Date('Jun 28 2016 18:15:00 GMT+0200 (CEST)').getTime();
 
 // variables for time units
@@ -21,8 +20,15 @@ setInterval(function() {
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
 
-    // format countdown string + set tag value
-    document.getElementById('countdown').innerHTML = '<span class="days">' + days + ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">' +
-        minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';
+    days_view = "";
+    if (days > 0) {
+      days_view = '<span STYLE="font-size: 70px" class="days">' + days + ' <b>Days</b></span>';
+    }
+
+    hours_view   = '<span STYLE="font-size: 70px" class="hours">' + hours + ' <b>Hours</b></span>';
+    minutes_view = '<span STYLE="font-size: 70px" class="minutes">' + minutes + ' <b>Minutes</b></span>';
+    seconds_view = '<span STYLE= "font-size: 70px" class="seconds">' + seconds + ' <b>Seconds</b></span>';
+
+    document.getElementById('countdown').innerHTML = days_view + hours_view + minutes_view + seconds_view;
 
 }, 1000);
