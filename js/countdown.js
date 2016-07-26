@@ -1,4 +1,4 @@
-var target_date = new Date('Jun 28 2016 18:15:00 GMT+0200 (CEST)').getTime();
+var target_date = new Date('Jul 26 2016 18:15:00 GMT+0200 (CEST)').getTime();
 
 // variables for time units
 var days, hours, minutes, seconds;
