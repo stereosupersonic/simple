@@ -14,13 +14,15 @@ body {
 }
 .counter h3 {
     font-size: 80px;
+    font-weight: bold;
 }
 #countdown {
+    margin-top: 20px;
     color: #FFFFFF;
 }
 #countdown span {
     color: black;
-    font-size: 26px;
+    font-size: 55px;
     font-weight: normal;
     margin-left: 20px;
     margin-right: 20px;
