@@ -1,0 +1,30 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background: url('../img/background.png')
+}
+.message {
+    padding-top: 160px;
+    font-size:  80px;
+    font-style: italic;
+}
+
+.counter {
+    text-align: center;
+}
+.counter h3 {
+    font-size: 80px;
+    font-weight: bold;
+}
+#countdown {
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+#countdown span {
+    color: black;
+    font-size: 55px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
